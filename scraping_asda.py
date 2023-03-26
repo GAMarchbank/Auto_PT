@@ -23,7 +23,7 @@ def un_nuted(url):
 
 # funciton to load the modual seleium, allows the input of a url
 def sel_load(url):
-    location = "C:\\Users\\ommo\\Desktop\\chromedriver.exe"
+    location = "C:\\Users\\ommo\\Desktop\\chromedriver.exe" # replace with location of chromedriver here
     chromeOptions = Options()
     chromeOptions.headless = False
     driver = webdriver.Chrome(executable_path=location, options= chromeOptions)
